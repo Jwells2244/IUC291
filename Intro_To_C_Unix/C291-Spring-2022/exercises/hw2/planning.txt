@@ -1,0 +1,33 @@
+Pseudocode
+
+
+Staff and Administrators are subtypes of staff:
+Staff - Salary/12
+:Only have 10 hours of available overtime per month at 150% of their normal pay
+
+Administrators - Salary/12
+:No overtime
+
+Hourly Workers - Fixed hourly wage for first 20 hours, and 125% of their hourly wage for overtime above the 20 hours.
+:Can work 40 hours max
+
+
+3 Faculty subtypes:
+
+Regular faculty - Salary/10
+:No overtime however can teach one or more overload classes for an 
+additional 8500 per 3 credit hour course per semester
+
+
+Adjunct Faculty - 8,500/5 * 3x(x is the amount of classes they're teaching)
+:Can teach a maximum of 9 credit hours per semester
+
+
+Teaching assistants - 2,500 per course, 10 hours per week
+:A TA is allowed to work 2 hours overtime at the normal pay rate, no overtime
+
+
+They work 160 hours a month
+
+
+

@@ -1,0 +1,65 @@
+1.
+
+a. 16-bit binary number
+Can store values from -32768 to 32767
+
+b. 8-bit binary number
+0-255
+
+
+2.
+
+a. -18
+00010010
+
+b. -50
+00110010
+
+
+3.
+
+a. 100
+binary - 01100100
+Hex - 64
+octal - 144
+
+b. 12A
+binary - 100101010
+decimal - 298
+octal - 452
+
+c. 701 octal
+binary - 111000001
+decimal - 449
+hex - 1C1
+
+
+4. Computations
+
+a.
+A = 28
+B = 127
+A+B = 155
+B-A = 99
+A*B = 3556
+
+b.
+A = 1004
+B = 32769
+A+B = 33773
+B-A = 31765
+A*B = 32900076
+
+c.
+A = 65697
+B = 725248
+A+B = 790945
+B-A = 659551
+This is wrong, because I think this calculation goes over the limit for how big an integer can be in C's memory
+A*B = 49420436856
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+include statements
+
+
+int main(void){
+
+//List the overtime amounts as fixed variables
+float staffOvertime = 1.5
+float adminOvertime = 0.0
+float hourlyOvertime = 1.25
+float regularFacultyOvertime = 0.0
+float adjunctFacultyOvertime = 0.0
+float TeachingAssistant = 1.0
+call to the user input function
+
+
+}
+
+string user input function(){
+string userinput = scanf("%s", Enter the Staff code, and then a space and then the required info for that staff code. Type ? For a full options list")
+string tokeninput = userinput // Lets us split the userinput into a token
+char * token = strtok(tokeninput, " ");
+if token == "?"{
+printf("===\nOPTIONS\n===Administrator -- Format -- A salaryamount\nStaff -- Format -- S salaryamount overtime\n Regular Faculty -- Format -- R salaryamount amountofoverloadcredits\n Adjunct Faculty -- Format -- J amountofcredithours\n TA -- Format -- T 
+while token != A or token != S or token != R or token != J or token != T or tken != H{
+userinput = scanf("%s", Enter the Staff code, and then a space and then the required info for that staff code. Type ? For a full options list")
+char tokenInput = userInput;
+char * token = strtok(tokeninput, " ");
+}
+return userinput

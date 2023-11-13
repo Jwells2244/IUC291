@@ -1,0 +1,34 @@
+140 seats in 20 rows
+7 seates a row
+A B D E F H I
+A I are on the end
+labeled 1-9 each row, incrementing
+Must be one seat blocked between passengers
+
+Need a list of 25 names in a seperate file
+
+Need a user interface
+
+5 options
+Choose a passenger and then choose a seat for the passenger
+Print a boarding pass for a chosen seat number indicating name, seat number, and class. If the seat isn't taken, print seat unassigned and try again
+Display the seating map/chart
+Print a passenger manifest showing names of all passengers and their seat numbers in a table format(Can be organized in alphabetical or seat bumber format)
+Quit the program
+
+Must use a while loop to keep it running until the user enters the quit option. Even if there is an invalid input
+
+
+
+F for first class
+B for business class
+Anything else will be in Economy
+
+
+Seat assignment is done on a random number basis
+
+Need to account for covid rules
+
+Basically need to display the title screen in the main function, have it in a while loop to check for the correct input, then call the appropriate functions based on what the user enters. There needs to be an upgrade/downgrade function, a seat assignment function, and a function that prints the seating chart
+
+Also need an external file for passenger names
